@@ -1,0 +1,19 @@
+{
+  "name": "devices-simulator",
+  "version": "1.0.0",
+  "description": "Simulador de dispositivos que se comunicam com o agent",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsgo --watch & nodemon dist/index.js"
+  },
+  "author": "Mateus Felipe Rauber",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.3.1",
+    "dotenv": "17.2.2",
+    "nodemon": "3.1.9"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20250911.1"
+  }
+}
