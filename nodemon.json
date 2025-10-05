@@ -1,0 +1,6 @@
+{
+  "watch": ["dist"],
+  "ignore": ["devices.json", "*.json"],
+  "ext": "js"
+}
+
