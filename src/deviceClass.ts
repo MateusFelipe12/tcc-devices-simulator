@@ -109,7 +109,6 @@ export class Device {
   }
 
   getLastUptime(): number {
-    console.log(Math.floor((Date.now() - this.bootTime.getTime()) / 1000))
     return Math.floor((Date.now() - this.bootTime.getTime()) / 1000);
   }
 }
